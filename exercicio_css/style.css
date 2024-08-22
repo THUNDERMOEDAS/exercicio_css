@@ -1,0 +1,95 @@
+/* Estilo global para remover margens e paddings padrão de todos os elementos */
+* {
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    box-sizing: border-box; /* Inclui borda e padding na largura e altura total */
+}
+
+/* Estilos para o corpo da página */
+body {
+    background-color: #000000e0; /* Define a cor de fundo da página */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+}
+
+/* Estilos para o cabeçalho h1 */
+h1 {
+    color: #ffffff; /* Define a cor do texto do cabeçalho */
+    text-align: center; /* Centraliza o texto do cabeçalho */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos para os parágrafos */
+p {
+    color: #ffffff; /* Define a cor do texto do parágrafo */
+    font-size: 40px; /* Define o tamanho da fonte do parágrafo */
+    text-align: center; /* Centraliza o texto do parágrafo */
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Estilos para todas as imagens */
+img {
+    display: block; /* Faz com que a imagem se comporte como um bloco */
+    margin-left: auto; /* Centraliza a imagem horizontalmente */
+    margin-right: auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Faz com que a imagem se ajuste ao tamanho máximo do contêiner */
+    height: auto; /* Mantém a proporção da altura da imagem */
+}
+
+/* Estilos para elementos com a classe fixed-element */
+.fixed-element {
+    position: fixed; /* Fixar o elemento na viewport */
+    top: 20px; /* Distância do topo da viewport */
+    right: 10px; /* Distância da borda direita da viewport */
+    background-color: #00000000; /* Cor de fundo para visualização */
+    border: 1px solid #ffffff; /* Borda para visualização */
+    padding: 5px;   /* Espaçamento interno para o parágrafo */
+    z-index: 1000; /* Camada acima de outros elementos */
+}
+h2.style {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+}
+h2.style1 {
+    color: #ffffffcc;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h3{
+    text-align: center;
+    color: rgb(2, 71, 2);
+}
+a{
+    color: rgb(2, 71, 2) ;
+}
+audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new-section{
+    background-color:#d4cbcb ;
+    color: rgb(20, 20, 20);
+}
+h1.new-section {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(20, 20, 20);
+}
+p.new-section{
+    color: rgb(20, 20, 20);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2.style2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2.style3{
+    text-align: center;
+    color:rgb(20, 20, 20);
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
